@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="535" -DLPC175x_6x -DDEBUG_0_ -DECE350_P3
+-o .\objects\ram\ae_tasks_util.o --omf_browse .\objects\ram\ae_tasks_util.crf --depend .\objects\ram\ae_tasks_util.d "src\ae\ae_tasks_util.c"

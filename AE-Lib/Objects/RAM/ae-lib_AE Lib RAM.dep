@@ -1,0 +1,95 @@
+Dependencies for Project 'ae-lib', Target 'AE Lib RAM': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\doc\Abstract.txt)(0x6329193D)()
+F (.\doc\G37-TS1.log)(0x6329193D)()
+F (.\src\ae\ae.c)(0x63291ABC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DDEBUG_0_ -DECE350_P3-o .\objects\ram\ae.o --omf_browse .\objects\ram\ae.crf --depend .\objects\ram\ae.d)
+I (..\include\ae.h)(0x6329193D)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x6329193D)
+I (..\include\printf.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\rtx.h)(0x6329193D)
+I (..\include\rtx_ext.h)(0x6329193D)
+I (..\include\common.h)(0x6329193D)
+I (..\include\common_ext.h)(0x6329193D)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x6329193D)
+I (..\include\rtx_errno.h)(0x6329193D)
+F (.\src\ae\ae_tasks_util.c)(0x63291ABC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DDEBUG_0_ -DECE350_P3-o .\objects\ram\ae_tasks_util.o --omf_browse .\objects\ram\ae_tasks_util.crf --depend .\objects\ram\ae_tasks_util.d)
+I (src\ae\ae_tasks_util.h)(0x6329193D)
+I (..\include\ae.h)(0x6329193D)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x6329193D)
+I (..\include\printf.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\rtx.h)(0x6329193D)
+I (..\include\rtx_ext.h)(0x6329193D)
+I (..\include\common.h)(0x6329193D)
+I (..\include\common_ext.h)(0x6329193D)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x6329193D)
+I (..\include\rtx_errno.h)(0x6329193D)
+I (src\ae\ae_inc.h)(0x6329193D)
+I (src\ae\ae_util.h)(0x6329193D)
+F (.\src\ae\ae_timer.c)(0x63291ABC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DDEBUG_0_ -DECE350_P3-o .\objects\ram\ae_timer.o --omf_browse .\objects\ram\ae_timer.crf --depend .\objects\ram\ae_timer.d)
+I (src\ae\ae_timer.h)(0x6329193D)
+I (..\include\bsp\LPC1768\timer.h)(0x6329193D)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E0B04)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D945A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D945A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D945A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\common.h)(0x6329193D)
+I (..\include\common_ext.h)(0x6329193D)
+F (.\src\ae\ae_util.c)(0x63291ABC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DDEBUG_0_ -DECE350_P3-o .\objects\ram\ae_util.o --omf_browse .\objects\ram\ae_util.crf --depend .\objects\ram\ae_util.d)
+I (src\ae\ae_util.h)(0x6329193D)
+I (..\include\ae.h)(0x6329193D)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x6329193D)
+I (..\include\printf.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\rtx.h)(0x6329193D)
+I (..\include\rtx_ext.h)(0x6329193D)
+I (..\include\common.h)(0x6329193D)
+I (..\include\common_ext.h)(0x6329193D)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x6329193D)
+I (..\include\rtx_errno.h)(0x6329193D)
+I (src\ae\ae_inc.h)(0x6329193D)
+F (.\src\main.c)(0x63291ABC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DDEBUG_0_ -DECE350_P3-o .\objects\ram\main.o --omf_browse .\objects\ram\main.crf --depend .\objects\ram\main.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E0B04)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D945A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D945A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D945A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\rtx.h)(0x6329193D)
+I (..\include\rtx_ext.h)(0x6329193D)
+I (..\include\common.h)(0x6329193D)
+I (..\include\common_ext.h)(0x6329193D)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x6329193D)
+I (..\include\rtx_errno.h)(0x6329193D)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x6329193D)
+I (..\include\bsp\LPC1768\uart_def.h)(0x6329193D)
+I (..\include\printf.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\ae.h)(0x6329193D)
+I (..\include\bsp\LPC1768\timer.h)(0x6329193D)
+F (.\src\ae\ae_tasks1_G37.c)(0x63291ABC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DDEBUG_0_ -DECE350_P3-o .\objects\ram\ae_tasks1_g37.o --omf_browse .\objects\ram\ae_tasks1_g37.crf --depend .\objects\ram\ae_tasks1_g37.d)
+I (src\ae\ae_tasks.h)(0x6329193D)
+I (..\include\rtx.h)(0x6329193D)
+I (..\include\rtx_ext.h)(0x6329193D)
+I (..\include\common.h)(0x6329193D)
+I (..\include\common_ext.h)(0x6329193D)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x6329193D)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x6329193D)
+I (..\include\printf.h)(0x6329193D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (src\ae\ae_util.h)(0x6329193D)
+I (..\include\ae.h)(0x6329193D)
+I (..\include\rtx_errno.h)(0x6329193D)
+I (src\ae\ae_inc.h)(0x6329193D)
+I (src\ae\ae_tasks_util.h)(0x6329193D)

@@ -1,0 +1,9 @@
+.\objects\ram\wall_clock_task.o: src\tasks\wall_clock_task.c
+.\objects\ram\wall_clock_task.o: ..\include\rtx.h
+.\objects\ram\wall_clock_task.o: ..\include\rtx_ext.h
+.\objects\ram\wall_clock_task.o: ..\include\common.h
+.\objects\ram\wall_clock_task.o: ..\include\common_ext.h
+.\objects\ram\wall_clock_task.o: ..\include\bsp\LPC1768\lpc1768_mem.h
+.\objects\ram\wall_clock_task.o: ..\include\math.h
+.\objects\ram\wall_clock_task.o: ..\include\printf.h
+.\objects\ram\wall_clock_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

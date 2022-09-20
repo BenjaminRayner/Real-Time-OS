@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Benjamin Rayner, UofW, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.35.0.2
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\ae-lib.uvprojx
+Project File Date:  09/19/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+*** Note: Rebuilding project, since 'Options->Output->Create Batch File' is selected.
+Rebuild Project 'ae-lib' - Target 'AE Lib RAM'
+compiling ae.c...
+compiling ae_tasks_util.c...
+compiling ae_timer.c...
+compiling ae_util.c...
+compiling main.c...
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\main.c(33): warning:  #223-D: function "uart_irq_init" declared implicitly
+      uart_irq_init(0);                                   /* uart0 interrupt driven, for RTX console                                    */
+src\main.c: 1 warning, 0 errors
+compiling ae_tasks1_G37.c...
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\ae\ae_tasks1_G37.c(126): warning:  #177-D: variable "pos"  was declared but never referenced
+      U8      pos         = g_tsk_cases[test_id_data].pos;
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\ae\ae_tasks1_G37.c(127): warning:  #177-D: variable "pos_expt"  was declared but never referenced
+      U8      pos_expt    = g_tsk_cases[test_id_data].pos_expt;
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\ae\ae_tasks1_G37.c(128): warning:  #177-D: variable "p_seq"  was declared but never referenced
+      task_t  *p_seq      = g_tsk_cases[test_id_data].seq;
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\ae\ae_tasks1_G37.c(129): warning:  #177-D: variable "p_seq_expt"  was declared but never referenced
+      task_t  *p_seq_expt = g_tsk_cases[test_id_data].seq_expt;
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\ae\ae_tasks1_G37.c(180): warning:  #177-D: variable "ret_val"  was declared but never referenced
+      int ret_val = 10;
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\ae\ae_tasks1_G37.c(185): warning:  #177-D: variable "p_index"  was declared but never referenced
+      U8      *p_index   = &(g_ae_xtest.index);
+C:\Users\Administrator\Desktop\ece350-spring2022-lab-g37-master-lab4\lab4\AE-Lib\src\ae\ae_tasks1_G37.c(186): warning:  #177-D: variable "sub_result"  was declared but never referenced
+      int     sub_result = 0;
+src\ae\ae_tasks1_G37.c: 7 warnings, 0 errors
+creating Library...
+Warning: L6875W: Adding non-ELF object 'G37-TS1.log' to archive '.\Objects\RAM\ae-lib-ram.lib'
+".\Objects\RAM\ae-lib-ram.lib" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.1.pack
+                Keil.LPC1700_DFP.2.7.1
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

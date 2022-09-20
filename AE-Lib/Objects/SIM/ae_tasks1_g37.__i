@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I ..\RTX-App\src\kernel
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="535" -DLPC175x_6x -DSIM_TARGET -DDEBUG_0_ -DECE350_P3
+-o .\objects\sim\ae_tasks1_g37.o --omf_browse .\objects\sim\ae_tasks1_g37.crf --depend .\objects\sim\ae_tasks1_g37.d "src\ae\ae_tasks1_G37.c"

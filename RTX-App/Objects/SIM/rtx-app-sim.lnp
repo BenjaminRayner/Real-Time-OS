@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+".\objects\sim\uart_polling.o"
+".\objects\sim\uart_irq.o"
+".\objects\sim\timer.o"
+".\objects\sim\hal.o"
+".\objects\sim\k_mem.o"
+".\objects\sim\k_msg.o"
+".\objects\sim\k_rtx_init.o"
+".\objects\sim\k_task.o"
+".\objects\sim\printf.o"
+".\objects\sim\cdisp_task.o"
+".\objects\sim\kcd_task.o"
+".\objects\sim\null_task.o"
+".\objects\sim\wall_clock_task.o"
+"..\AE-Lib\Objects\SIM\ae-lib-sim.lib"
+".\objects\sim\btree.o"
+".\objects\sim\math.o"
+".\objects\sim\dlist.o"
+".\objects\sim\mailbox.o"
+".\objects\sim\startup_lpc17xx.o"
+".\objects\sim\system_lpc17xx.o"
+--strict --scatter ".\Objects\SIM\rtx-app-sim.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\rtx-app-sim.map" -o .\Objects\SIM\rtx-app-sim.axf
